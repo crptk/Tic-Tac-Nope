@@ -1,0 +1,111 @@
+@import url('https://fonts.googleapis.com/css2?family=Archivo+Black&display=swap');
+body {
+    display: flex;
+    background-color: black;
+    flex-direction: column;
+    justify-content: center;
+    height: 95vh;
+}
+h1 {
+    margin: 0;
+}
+.archivo-black-regular {
+    font-family: "Archivo Black", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+  
+.gameHeader {
+    position: relative;
+    /* top: 3px; */
+    color: cyan;
+    margin-left: auto;
+    margin-right: auto;
+    width: 30%;
+    /* border: 3px solid green; */
+    padding: 10px;
+    text-align: center;
+    font-size: 1.7vw; /* Use viewport width for font size */
+    font-family: "Archivo Black", sans-serif;
+}
+h2 {
+    margin: 10px auto 10px auto;
+}
+.announcement {
+    position: relative;
+    margin: 0 auto 0 auto;
+    /* border: 3px solid red; */
+    width: 20%;
+    text-align: center;
+    font-size: 1.1vw; /* Use viewport width for font size */
+    color: aqua;
+    font-family: "Archivo Black", sans-serif;
+}
+.game {
+    display: grid;
+    width: 90vw; /* Responsive width */
+    max-width: 500px; /* Max width for larger screens */
+    height: 90vw; /* Match height to width for square grid */
+    max-height: 500px; /* Max height to match max width */
+    margin: 20px auto;
+    grid-template-columns: repeat(3, 1fr); 
+    grid-template-rows: repeat(3, 1fr);
+    border: 3px solid white; /* Add border around the entire grid */
+    box-sizing: border-box; /* Ensure padding/border are included in size */
+}
+.cell {
+    border: 3px solid white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    aspect-ratio: 1 / 1; /* Maintain a 1:1 aspect ratio */
+    width: 100%; /* Each cell takes full width of its grid area */
+    height: auto; /* Adjust height automatically based on aspect ratio */
+    min-width: 0; /* Prevent cells from shrinking */
+    min-height: 0; /* Prevent cells from shrinking */
+    
+}
+
+.cell img {
+    width: 100%; /* Make the image take up 100% of the cell's width */
+    height: 100%; /* Make the image take up 100% of the cell's height */
+    object-fit: contain; /* Ensure the image scales without distorting */
+}
+
+.buttons {
+    width: 400px;
+    height: 150px;
+    position: Relative;
+    margin: 0 auto 0 auto;
+    border: none;
+    text-align: center;
+    font-size: 100px;
+    border-radius: 30px;
+    
+}
+.buttons button {
+    width: 100%;                 /* Button takes full width of the container */
+    height: auto;                /* Button takes full height of the container */
+    font-size: 3vw; /* Responsive font size */
+    text-align: center;
+    position: Relative;
+    border-radius: 30px;
+    background-color: rgb(0, 238, 255);
+    font-family: "Archivo Black", sans-serif;
+}
+
+@media (max-width: 1000px) or (max-height: 1000px)
+{
+    .gameHeader, .announcement {
+        font-size: 2vw; /* Increase font size on small screens */
+    }
+
+    .buttons button {
+        font-size: 8vw; /* Adjust button font size on small screens */
+    }
+
+    .game {
+        width: 60vw; /* Make game board wider on small screens */
+        height: 60vw; /* Increase height on small screens */
+    }
+}
