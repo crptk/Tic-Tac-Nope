@@ -56,7 +56,7 @@ h2 {
 .cell {
     border: 3px solid white;
     display: flex;
-    justify-content: center;
+    justify-content: center;  
     align-items: center;
     aspect-ratio: 1 / 1; /* Maintain a 1:1 aspect ratio */
     width: 100%; /* Each cell takes full width of its grid area */
