@@ -1,5 +1,5 @@
 # Tic-Tac-Toe Game By Edrees (edx) / Crptk (github)
-####Video demo: 
+####Video demo: https://youtu.be/HEfmGL1IxcM
 ####Description: My first programming project as well as my final CS50 project, created without the use of Youtube tutorials and with the help of ChatGPT when it comes to CSS layout, as well as Javascript syntax and optimization. 
                  I used the skills I learned from Week 8 especially, mostly with the CSS and HTML, but I especially learned a lot about Javascript as that was a big struggle for me during the course.
 
