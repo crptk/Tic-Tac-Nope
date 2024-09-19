@@ -93,6 +93,10 @@ h2 {
     background-color: rgb(0, 238, 255);
     font-family: "Archivo Black", sans-serif;
 }
+#begin.buttons button {
+    font-size: 2vw;
+
+}
 
 @media (max-width: 1000px) or (max-height: 1000px)
 {
