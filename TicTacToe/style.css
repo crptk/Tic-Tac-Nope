@@ -73,31 +73,32 @@ h2 {
 }
 
 .buttons {
-    width: 400px;
-    height: 150px;
-    position: Relative;
-    margin: 0 auto 0 auto;
+    width: fit-content;
+    position: relative;
+    margin: 0 auto;
     border: none;
     text-align: center;
     font-size: 100px;
     border-radius: 30px;
-    
+    display: flex; /* Use Flexbox */
+    justify-content: space-around; /* Align buttons horizontally with space around */
+    padding: 10px; /* Add some padding */
 }
+
 .buttons button {
-    width: 100%;                 /* Button takes full width of the container */
-    height: auto;                /* Button takes full height of the container */
-    font-size: 3vw; /* Responsive font size */
+    height: auto;
+    font-size: 3vw;
     text-align: center;
-    position: Relative;
     border-radius: 30px;
     background-color: rgb(0, 238, 255);
     font-family: "Archivo Black", sans-serif;
 }
 #begin.buttons button {
     font-size: 2vw;
-
 }
-
+#home {
+    width: 70%;
+}
 @media (max-width: 1000px) or (max-height: 1000px)
 {
     .gameHeader, .announcement {
@@ -119,10 +120,6 @@ h2 {
         font-size: 2vw; /* Reduce font size by half */
     }
 
-    .buttons {
-        width: 250px;  /* Half the width of buttons */
-        height: 100px;  /* Half the height of buttons */
-    }
 
     .buttons button {
         font-size: 4vw; /* Reduce button font size by half */
@@ -142,11 +139,6 @@ h2 {
 @media (max-width: 1024px) and (max-height: 600px) {
     .gameHeader, .announcement {
         font-size: 1.7vw; /* Reduce font size by half */
-    }
-
-    .buttons {
-        width: 250px;  /* Half the width of buttons */
-        height: 100px;  /* Half the height of buttons */
     }
 
     .buttons button {

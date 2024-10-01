@@ -214,11 +214,6 @@ document.addEventListener("DOMContentLoaded", () => {
             }
         });
     });
-    function beginGame()
-    {
-        console.log("Redirecting to index.html")
-        window.location.href = "index.html"
-    }
     function buttonReset()
     {
         // Reset the game array
@@ -243,10 +238,12 @@ document.addEventListener("DOMContentLoaded", () => {
         })
         document.getElementById("turn").textContent = "Player 1 turn!";
     }
-    // Add event listener for begin button on the homepage
-    const beginButton = document.querySelector('#beginButton');
-    if (beginButton) {
-        beginButton.addEventListener('click', beginGame);
+    function returnHome() {
+        window.location.href = "../homepage/homepage.html"
+    }
+    const homeButton = document.querySelector('#home');
+    if (homeButton) {
+        homeButton.addEventListener('click', returnHome);
     }
 
     const resetButton = document.querySelector('#reset');
