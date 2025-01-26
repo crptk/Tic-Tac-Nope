@@ -1,4 +1,4 @@
-Tic-Tac-Toe Game By Edrees Amiri / Crptk (github)
+# Tic-Tac-Toe Game By Edrees Amiri / Crptk (github)
 Video demo: https://youtu.be/HEfmGL1IxcM?si=XSTKhLf9cPo2I68k (this demo was made before the AI was integrated)
 
 Description: My first programming project as well as my final CS50 project, created without the use of Youtube tutorials and with the help of ChatGPT when it comes to CSS layout, as well as Javascript syntax and optimization.
