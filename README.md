@@ -1,6 +1,6 @@
 # 🎮 Tic-Tac-Toe Game by Edrees Amiri (Crptk)  
 
-### 🔗 [Video Demo](https://youtu.be/HEfmGL1xcM?s=i=XSTKhLf9cPo2I68k)  
+### 🔗 [Video Demo]([https://youtu.be/HEfmGL1xcM?s=i=XSTKhLf9cPo2I68k](https://youtu.be/fVI3Vmk3Gfg))  
 *(This demo was made before AI integration.)*  
 
 ## 📝 Project Overview  
